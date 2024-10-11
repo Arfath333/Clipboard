@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 18px;
+}
+.header{
+    background-image: url(/Images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-inline: 22px;
+}
+.header img{
+    margin-top: 90px;
+}
+.header h1 {
+    color: hsl(210, 10%, 33%);
+    padding-top: 4rem;
+    font-size: 2rem;
+    opacity: 0.9;
+}
+.header article{
+    padding:40px 9px;
+    color: hsl(201, 11%, 66%);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+}
+.header a {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    text-decoration: none;
+    color: #eaf8f6;
+    opacity: 0.9;
+}
+.iOS {
+    padding: 20px 80px;
+    margin: 25px 0;
+    border: none;
+    border: 1px solid #309582;
+    border-radius: 40px;
+    box-shadow: 0px 3px 3px #309582;
+    background-color: hsl(171, 66%, 44%);
+}
+.Mac{
+    padding: 20px 80px;
+    margin-bottom: 100px;
+    border: none;
+    border: 1px solid hsl(232, 64, 58);
+    border-radius: 40px;
+    box-shadow: 0px 3px 3px hsl(232, 53%, 50%);
+    background-color: hsl(233, 100%, 69%);
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-inline: 40px;
+}
+.main-content .computer-img{
+    width: 90vw;
+    height: 40vh;
+}
+.main-content h2{
+    color: black;
+    padding-top: 3rem;
+    font-size: 2rem;
+    opacity: 0.7;
+}
+.main-content article{
+    width: 90vw;
+    padding: 10px 5px;
+    color: hsl(201, 11%, 66%);
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.8rem;
+    opacity: 0.8;
+}
+.content2 {
+    margin: 100px 0;
+}
+.content2 img{
+    margin: 50px 0;
+    width: 100vw;
+}
+.content3 h2{
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+.content3 article{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.content3 img {
+    margin: 30px 0;
+}
+.content4 {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0;
+}
+.content4 img{
+    width: 35vw;
+    margin: 35px 0;
+}
+.content5 .iOS {
+    padding: 20px 80px;
+    margin: 25px 0;
+    border: none;
+    border: 1px solid #309582;
+    border-radius: 40px;
+    box-shadow: 0px 3px 3px #309582;
+    background-color: hsl(171, 66%, 44%);
+}
+.content5 .Mac{
+    padding: 20px 80px;
+    border: none;
+    border: 1px solid hsl(232, 64, 58);
+    border-radius: 40px;
+    box-shadow: 0px 3px 3px hsl(232, 53%, 50%);
+    background-color: hsl(233, 100%, 69%);
+}
+.content5 a {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    color: #eaf8f6;
+    opacity: 0.9;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    margin-top: 100px;
+    background-color: hsl(214, 23%, 94%);
+}
+.footer .logo {
+    margin: 50px 0;
+    width: 20vw;
+}
+.footer li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: grey;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 10px 0;
+}
+.footer .bottom{
+    margin-top: 30px;
+}
+.footer a {
+    padding-inline: 30px;
+}
+.bottom svg{
+    width: 10vw;
+    height: 10vh;
+    opacity: 0.7;
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        background-image: url(/Images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        padding-top: 4.5rem;
+    }
+    .header h1 {
+        font-size: 3.8rem;
+        font-weight: 600;
+    }
+    .header article {
+        padding-top:15px;
+        padding-bottom: 50px;
+        font-size: 1.6rem;
+        font-weight: 400;
+        width: 70vw;
+        line-height: 2.5rem;
+    }
+    .header .bottom h1{
+        font-size: 3rem;
+    }
+    .header .bottom{
+        margin-bottom: 50px;
+    }
+    .header a{
+        font-size: 1.4rem;
+    }
+    .iOS {
+        padding: 20px 50px;
+        margin-inline:25px;
+        cursor: pointer;
+    }
+    .Mac{
+        padding: 20px 50px;
+        margin-bottom: 100px;
+        cursor: pointer;
+    }
+    .main-content .computer-img{
+        width: 60vw;
+        height: 70vh;
+    }
+    .main-content #content1 {
+        width: 100vw;
+        display: flex;
+        text-align: start;
+    }
+    .main-content #side-content{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 35vw;
+        padding-inline: 100px;
+    }
+    .main-content #sidde-content h2 {
+        font-size: 1rem;
+    }
+    .main-content #side-content article {
+        width: 33vw;
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+    .content2{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+        margin-top:100px ;
+        margin-bottom: 30px;
+    }
+    .content2 h2 {
+        font-size: 3rem;
+        opacity: 0.65;
+    }
+    .content2 article {
+        padding:1.5rem 0;
+        font-size: 1.5rem;
+        width: 65vw;
+        line-height: 2.5rem;
+    }
+    .content2 img{
+        width: 80vw;
+        height: 100vh;
+        padding-top: 70px;
+    }
+    .content3 {
+        width: 95vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+    .content3 #c3 {
+        width: 35vw;
+    }
+    .content3 h2{
+        font-size: 1.5rem;
+        padding:0;
+    }
+    .content3 article{
+        display: flex;
+        text-align: center;
+        width: 30vw;
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+    .content3 img {
+        margin: 50px 0;
+    }
+    .content4 {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .content4 img{
+        width: 15vw;
+    }
+    .content5 h2{
+        font-size: 2.5rem;
+    }
+    .content5 article{
+        font-size: 1.4rem;
+        width: 60vw;
+        padding: 30px 0;
+    }
+    .content5 .iOS {
+        padding: 20px 50px;
+        margin-inline:25px;
+        cursor: pointer;
+    }
+    .content5 .Mac{
+        padding: 20px 50px;
+        margin-bottom: 100px;
+        cursor: pointer;
+    }
+    .content5 a {
+        font-size: 1.4rem;
+    }
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+        height: 15vh;
+        margin-top: 0px;
+    }
+    .footer .logo {
+        margin:0;
+        width: 3vw;
+    }
+    .footer ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 50vw;
+    }
+    .footer li:hover{
+        color: #3dd4b9;
+        cursor: pointer;
+    }
+    .footer li {
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding-inline: 50px;
+    }
+    .footer .bottom{
+        display: flex;
+        width: 10vw;
+        margin-top: 10px;
+    }
+    .bottom svg{
+        width: 3vw;
+        height: 3vh;
+    }
+    .footer a {
+        padding-inline: 0px;
+    }
+    .bottom a:hover{
+        fill:#3dd4b9;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
